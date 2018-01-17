@@ -60,6 +60,9 @@ blockquote {
   background: #0085A1;
   text-shadow: none; }
 
+img {
+    margin: auto auto;
+}
 img::selection {
   color: #fff;
   background: transparent; }
