@@ -8,25 +8,24 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Posts - Nick's Braindump</title>
+    <title>Introduction to Machine Learning - Nick's Braindump</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
+    <link href="../css/clean-blog.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+      $("#includedContent").load("Introduction.html");
+    });
+    </script>
 
   </head>
 
@@ -42,13 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="posts.html">Posts</a>
+              <a class="nav-link" href="../posts.html">Posts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="../contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -56,51 +55,30 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('../img/post-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Blog posts</h1>
+            <div class="post-heading">
+              <h1>My First Tutorial Ever</h1>
+              <h2 class="subheading">One year, and one month later...</h2>
+              <span class="meta">Posted by
+                on February 14, 2019</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="blog/firsttutorial.html">
-              <h2 class="post-title">
-                My First Tutorial Ever
-              </h2>
-              <h3 class="post-subtitle">
-                    One month, and one year later....
-              </h3>
-            </a>
-            <p class="post-meta">February 14, 2019</p>
-          </div>
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="blog/helloworld.html">
-              <h2 class="post-title">
-                Hello World!
-              </h2>
-              <h3 class="post-subtitle">
-                    What kind of trouble can we get into?
-              </h3>
-            </a>
-            <p class="post-meta">January 14, 2018</p>
-          </div>
-          <hr>
-          <!-- Pager -->
-        </div>
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+      <p>Below you will find a tutorial that I wrote as an introduction to some of the fundamental concepts for machine learning.</p>
+      <p>This is purely an html embed, it isn't an interactive Jupyter notebook. For that, you should go here <a href="https://github.com/nicholasmireles/tutorials/tree/master/introduction">here</a>.</p>
+      <div id="includedContent"></div>
       </div>
-    </div>
+    </article>
 
     <hr>
 
@@ -124,6 +102,12 @@
       </div>
     </footer>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
 
   </body>
 
