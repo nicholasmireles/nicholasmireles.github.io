@@ -31,6 +31,12 @@
 
     <!-- Custom styles for this template -->
     <link href="../../css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Syntax Highlighting -->
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
 
   <body>
@@ -119,7 +125,7 @@
         That's the whole reason we invented computers! So now, we'll make it actually do something.</p>
         <p>Back in your script, delete that print line we wrote, you won't need it anymore. We're off to bigger and
           better things. In it's place, write the following lines:</p>
-          <pre class="text-center"><code>
+          <pre class="mx-auto" style="width:50%;"><code class="python">
           x = 1
           y = 2
           z = x+y
