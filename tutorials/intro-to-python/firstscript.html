@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Introduction to Python - Installation</title>
+    <title>Introduction to Python - Your First Script</title>
 
     <!-- Tracking tag because I'm a terrible person who wants to know who's visiting my page. -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -71,9 +71,9 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>Installing Python</h1>
-              <h2 class="subheading">Baby steps...</h2>
-              <span class="meta">Posted on March 25, 2019</span>
+              <h1>Your First Script</h1>
+              <h2 class="subheading">Let's get nerdy</h2>
+              <span class="meta">Posted on March 26, 2019</span>
             </div>
           </div>
         </div>
@@ -85,58 +85,81 @@
     <ol class="breadcrumb bg-white">
       <li class="breadcrumb-item"><a href="https://nicholasmireles.github.io/tutorials.html">Tutorials</a></li>
       <li class="breadcrumb-item"><a href="https://nicholasmireles.github.io/tutorials/intro-to-python.html">Introduction to Python</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Installation</li>
+      <li class="breadcrumb-item active" aria-current="page">Your First Script</li>
     </ol>
     </nav>
     
     <!-- Post Content -->
     <article>
       <div class="container">
-      <p>This first tutorial will cover how to get Python installed on your computer and setting up your coding environment. I will be targeting Mac, but the instructions are identical for Windows. This process is very easy, and certainly the most important.</p>
+      <p>Welcome back! I know what you're thinking: "But Nick! I'm not ready to start programming yet, I just downloaded Python for crying out loud!"
+        but trust me, it really is that easy. Plus, I'll teach some important things along the way.</p>
 
-      <h1> Download </h1>
+      <h1> Environment </h1>
       <hr>
-      <p>The first step, of course, is to go <a href="https:///www.python.org/download">here</a> and click this shiny button:</p>
-        <img src="../../img/download_butt.png" class="rounded mx-auto d-block" style="width:50%;"/>
-      <p>This will download the installer to your computer. Open that file and follow the prompts. I won't insult your intelligence and leave this part to you.</p>
-      <p>Congratulations, you now have Python! You should now be presented with the following files:</p>
-        <img src="../../img/new_files.png" class="rounded mx-auto d-block" style="width:30%" />
-      <p>I'll go over the files that you see here:</p>
+        <p>Before we get to coding, we need to make sure you get into the habit of having good project structure.
+          In your "python_workspace" folder we created in the last tutorial, create a folder called "myfirstscript".
+          In that folder, we will create a new file called "myfirstscript.py" using whatever editor you chose.
+          If you're feeling adventurous (and a Mac or Linux user), also open Terminal and type the following:
+        <pre class="text-center"><code>cd Documents/python_workspace/myfirstscript/</code></pre>
+        <p>Adjusting the second part if you placed your workspace folder anywhere but Documents.</p>
 
-      <table class="table table-striped">
-        <tr><th>IDLE</th>
-        <td>Potentially your new best friend. This is an interactive environment for writing and executing Python.</td></tr>
-        <tr><th>Install Certificates.command</th>
-          <td> This file will execute a command on your computer to install specially-curated SSL root certificates. You shouldn't have to worry about this now.</td></tr>
-        <tr><th>License.rtf</th>
-          <td>The license that Python is released under. I'm sure we'll all thoroughly read this.</td></tr>
-        <tr><th>Python Documentation.html</th>
-          <td> Self-explanatory, opens the documentation for Python in a web browser. Highly recommend reading this some time.</td></tr>
-        <tr><th>Python Launcher</th>
-          <td>This file is solely for your computer to run, don't worry about it.</td></tr>
-        <tr><th>README.rtf</th>
-          <td>Arguably the most important file in any software project. Gives you some useful info about Python.</td></tr>
-        <tr><th>Update Shell Profile.command</th>
-        <td>Makes sure that Python is opened when you type "python" in a shell window. If you wish to use the terminal (more on this below), run this.</td></tr>
-      </table>
-        
-      <br>
-        
-      <h1> Editor </h1>
+      <h1> Hello World</h1>
       <hr>
-      <p>This is the fun part: Deciding where you want to develop.</p>
-      <p>It's totally okay to stick with IDLE as it lets you create scripts as well as interactively execute code. IDLE also provides handy suggestions as you type. If it's not your style, any text editor or <a href="#" data-toggle="tooltip" data-original-title="Integrated Development Environment" data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">IDE</a> will work just fine. I know that <a href="https://atom.io/">Atom</a> is a very popular choice as it's gorgeous, simple, and extendible. 
-        Personally, if I'm not using VIM (A command-line editor), I use <a href="https://www.jetbrains.com/pycharm/">PyCharm</a>. However, that may be a little overkill for a beginner and it can be a bit overwhelming. The choice is truly yours, but I highly recommend an editor made specifically for programming as it'll provide highlighting and corrections which will prove very useful.</p>
-      
-      <h1> Workspace </h1>
+        <p>Now that you have the python script open, write the following line:</p>
+        <pre class="text-center"><code>print("Hello, World!")</code></pre>
+        <p>Save the file and double click on it. This should then open a new IDLE or Python Launcher window where you will see the message
+          "Hello, World!" written to your screen. Yay, you just ran your first ever Python program!</p>
+        <p>For you users that opened the Terminal in the last section, you can type
+          <code>python myfirstscript.py</code> and you should see the same results on the next line.</p>
+
+      <h1> Variables </h1>
       <hr>
-      <p>Finally, we should set up where you will do all your work. Go ahead and create a folder anywhere on your computer called "python_workspace". You can place it anywhere you won't forget it, but I recommend placing it in your Documents folder. This will house all your future projects and their <a href="#" data-toggle="tooltip" data-original-title="A place to safely install things specifically for a single project." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">virtual environments</a>.</p>
-      <p>After you decide on an editor and create the folder, we're all set! Sweet!!</p>
+        <p>The last part was a great way to introduce you to running a script, but it didn't really do anything!
+        That's the whole reason we invented computers! So now, we'll make it actually do something.</p>
+        <p>Back in your script, delete that print line we wrote, you won't need it anymore. We're off to bigger and
+          better things. In it's place, write the following lines:</p>
+          <pre class="text-center"><code>
+          x = 1
+          y = 2
+          z = x+y
+          </code></pre>
+        <p><var>x</var>, <var>y</var>, and <var>z</var> are what's known as variables. Yes, just like variables in math.
+        They hold values that you give them and they will be your work horses. You'll notice that I put each variable
+        <a href="#" data-toggle="tooltip" data-original-title="The first time a variable is defined." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">
+          declaration</a> on it's own line. In Python, each line represents a single command for it to execute.
+          Now add the following line at the end: <code>print(z)</code>. Save and run the file. You should see the
+        number "3" printed out.</p>
+        <p>To summarize, you gave <var>x</var> the value of 1, <var>y</var> the value of 2, and <var>z</var> the
+        value of <var>x</var> plus the value of <var>y</var>. These variables are what's known as <var>integers</var>.
+        Again, just like math. They represent whole numbers. You were also introduced to <var>strings</var> in the
+        first print statement. Strings are always surrounded by quotation marks and they represent plain text, nothing
+        special. There are many other variable types that we'll touch on in the future.</p>
+
+        <p>One final note: variable names should always be as succinct as possible, and lowercase. If you must use
+        two words, connect them with an underscore (i.e. <code>account_number</code>). Code is read more than it is
+        written, and you will save future you (and maybe someone else) a lot of trouble if you follow these simple rules.</p>
+
+        <h1> Conclusion </h1>
+        <hr>
+        <p>That's all for this tutorial! If you made it this far, thank you and I'm proud of you. In the next one we'll
+        do more fun and useful things with variables. For now, I highly suggest you spend some time playing with what
+        I have taught you so far. Have fun and go crazy!</p>
       <p><small>Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</small></p>
       </div>
     </article>
 
-    <hr>
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/installation.html">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/installation.html">1</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+    </ul>
+   </nav>
+
+  <hr>
 
     <!-- Footer -->
     <footer>
