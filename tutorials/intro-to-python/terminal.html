@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Introduction to Python - Your First Script</title>
+    <title>Introduction to Python - Using the Terminal</title>
 
     <!-- Tracking tag because I'm a terrible person who wants to know who's visiting my page. -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -77,9 +77,9 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
-              <h1>Your First Script</h1>
-              <h2 class="subheading">Let's get nerdy</h2>
-              <span class="meta">Posted on March 26, 2019</span>
+              <h1>EXTRA: Using the Terminal</h1>
+              <h2 class="subheading">Alternate title: How to Look Like a Hollywood Hacker</h2>
+              <span class="meta">Posted on March 27, 2019</span>
             </div>
           </div>
         </div>
@@ -91,66 +91,57 @@
     <ol class="breadcrumb bg-white">
       <li class="breadcrumb-item"><a href="https://nicholasmireles.github.io/tutorials.html">Tutorials</a></li>
       <li class="breadcrumb-item"><a href="https://nicholasmireles.github.io/tutorials/intro-to-python.html">Introduction to Python</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Your First Script</li>
+      <li class="breadcrumb-item active" aria-current="page">EXTRA: Using the Terminal</li>
     </ol>
     </nav>
     
     <!-- Post Content -->
     <article>
       <div class="container">
-      <p>Welcome back! I know what you're thinking: "But Nick! I'm not ready to start programming yet, I just downloaded Python for crying out loud!"
-        but trust me, it really is that easy. Plus, I'll teach some important things along the way.</p>
+      <p>So it comes to this. I tried to keep all of this rather basic, but there's just one thing we must do: use the
+        Terminal. In Windows, it's called Command Prompt, and in Mac or Linux it's just called Terminal. This provides
+       a text-based approach to interacting with your computer. It's what you see all the Hollywood hackers furiously
+       typing away at. For us, it will provide the ability to run Python with
+        <a href="#" data-toggle="tooltip" data-original-title="Information or options we pass to programs from the terminal." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">command-line arguments</a>.</p>
 
-      <h1> Environment </h1>
+      <h1> The Basics </h1>
       <hr>
-        <p>Before we get to coding, we need to make sure you get into the habit of having good project structure.
-          In your "python_workspace" folder we created in the last tutorial, create a folder called "myfirstscript".
-          In that folder, we will create a new file called "myfirstscript.py" using whatever editor you chose.
-          If you followed the extra tutorial, and I highly recommend that you do, also open Terminal and type the following:
-        <pre><code>cd Documents/python_workspace/myfirstscript/</code></pre>
-        <p>Adjusting the second part if you placed your workspace folder anywhere but Documents.</p>
+        <p>Go ahead and open the appropriate program for your Operating System. Windows users, search for "cmd" or
+          "Command Prompt". Everyone else, search "Terminal". You should be presented with a very  plain, black window
+          with some information. Where your cursor is currently blinking is called the prompt, because it is prompting
+          you for a command. Next to your cursor you should see something like
+          <code>C:\Users\Nick</code>. This is where you currently are and where anything you do will happen. In the
+        following sections I'll explain some basic navigation for your Operating System.</p>
 
-      <h1> Hello World</h1>
+      <h1> Mac / Linux </h1>
       <hr>
-        <p>Now that you have the python script open, write the following line:</p>
-        <pre><code>print("Hello, World!")</code></pre>
-        <p>Save the file and double click on it. This should then open a new IDLE or Python Launcher window where you will see the message
-          "Hello, World!" written to your screen. Yay, you just ran your first ever Python program!</p>
-        <p>For you users that opened the Terminal in the last section, you can type
-          <code>python myfirstscript.py</code> and you should see the same results on the next line.</p>
+      <p>Congratulations, you have the easier terminal to use (in my opinion). First, let's explore the directory (folder)
+        you're currently in. Type <code>ls</code> (short for list) and press Enter/Return. This will list every file
+      in your current directory. You should see stuff like your Documents folder, Downloads folder, etc. Where you are
+      now is called your root directory. It's the starting point for your specific account on that computer. Now that
+      we know where we are and how to look around, how do we move? That's where the <code>cd</code> (short for change
+        directory) command comes in. Go ahead and try <code>cd Documents</code> followed by <code>ls</code> again.
+      After you change directories, you should see your prompt change to reflect this. After the <code>ls</code> command, you
+        should see the the files in your Documents folder. If you ever get lost, you can do <code>cd ~</code> to get
+      back to your root directory. <code>~</code> is a handy shortcut that represents its
+      <a href="#" data-toggle="tooltip" data-original-title="The 'directions' to a folder or file." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">path</a>. This should be sufficient knowledge for you for now, play around with it a bit to get familiar.</p>
 
-      <h1> Variables </h1>
+      <h1> Windows </h1>
       <hr>
-        <p>The last part was a great way to introduce you to running a script, but it didn't really do anything!
-        That's the whole reason we invented computers! So now, we'll make it actually do something.</p>
-        <p>Back in your script, delete that print line we wrote, you won't need it anymore. We're off to bigger and
-          better things. In it's place, write the following lines:</p>
-          <pre><code class="python">x = 1
-y = 2
-z = x+y</code></pre>
-        <p><var>x</var>, <var>y</var>, and <var>z</var> are what's known as variables. Yes, just like variables in math.
-        They hold values that you give them and they will be your work horses. You'll notice that I put each variable
-        <a href="#" data-toggle="tooltip" data-original-title="The first time a variable is defined." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">
-          declaration</a> on it's own line. In Python, each line represents a single command for it to execute.
-          Now add the following line at the end: <code>print(z)</code>. Save and run the file. You should see the
-        number "3" printed out.</p>
-        <p>To summarize, you gave <var>x</var> the value of 1, <var>y</var> the value of 2, and <var>z</var> the
-        value of <var>x</var> plus the value of <var>y</var>. These variables are what's known as <var>integers</var>.
-        Again, just like math. They represent whole numbers. You were also introduced to <var>strings</var> in the
-        first print statement. Strings are always surrounded by quotation marks and they represent plain text, nothing
-        special. There are many other variable types that we'll touch on in the future.</p>
+      <p>You just had to be different. This section exists solely because Windows is the only major Operating System
+        with a different terminal. I'm going to shamelessly copy/paste the last section and adjust it for Windows here:</p>
 
-        <p>One final note: variable names should always be as succinct as possible, and lowercase. If you must use
-        two words, connect them with an underscore (i.e. <code>account_number</code>) as Python uses spaces as a
-        <a href="#" data-toggle="tooltip" data-original-title="Some sort of symbol that differentiates seperate items." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">delimiter</a>,
-        similarly to English. Code is read more than it is written, and you will save future you
-        (and maybe someone else) a lot of trouble if you follow these simple rules.</p>
+        <p>First, let's explore the directory (folder)  you're currently in. Type <code>dir</code> (short for directory)
+        and press Enter/Return. This will list every file in your current directory. You should see stuff like your
+        Documents folder, Downloads folder, etc. Where you are now is called your root directory. It's the starting
+        point for your specific account on that computer. Now that we know where we are and how to look around, how do
+        we move? That's where the <code>cd</code> (short for change
+        directory) command comes in. Go ahead and try <code>cd Documents</code> followed by <code>dir</code> again.
+      After you change directories, you should see your prompt change to reflect this new
+      <a href="#" data-toggle="tooltip" data-original-title="The 'directions' to a folder or file." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">path</a>. After the <code>dir</code> command, you
+        should see the the files in your Documents folder. This should be sufficient knowledge for you for now, play
+        around with it a bit to get familiar.</p>
 
-        <h1> Conclusion </h1>
-        <hr>
-        <p>That's all for this tutorial! If you made it this far, thank you and I'm proud of you. In the next one we'll
-        do more fun and useful things with variables. For now, I highly suggest you spend some time playing with what
-        I have taught you so far. Have fun and go crazy!</p>
       <p><small>Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</small></p>
       </div>
     </article>
@@ -158,11 +149,11 @@ z = x+y</code></pre>
     <!-- Pagination -->
     <nav aria-label="Page navigation">
     <ul class="pagination justify-content-center">
-      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/terminal.html">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/installation.html">Previous</a></li>
       <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/installation.html">1</a></li>
-      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/terminal.html">2</a></li>
-      <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
-      <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/firstscript.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="https://nicholasmireles.github.io/tutorials/intro-to-python/firstscript.html">Next</a></li>
     </ul>
    </nav>
 
