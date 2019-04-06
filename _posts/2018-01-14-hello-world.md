@@ -2,6 +2,7 @@
 layout: default
 title: Hello World
 description: What kind of trouble can we get into?
+categories: [blog]
 header-img: /assets/img/post-bg.jpg
 ---
 
