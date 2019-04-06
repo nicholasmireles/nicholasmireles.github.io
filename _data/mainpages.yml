@@ -1,0 +1,16 @@
+docs:
+
+- title: Home
+  url: /index.html
+
+- title: Posts
+  url: /posts/
+
+- title: Tutorials
+  url: /tutorials/
+
+- title: Organizations
+  url: /organizations/
+
+- title: Contact
+  url: /contact/

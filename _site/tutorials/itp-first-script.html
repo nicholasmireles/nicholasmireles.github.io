@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Your First Script</title>
+
+    <!-- Tracking tag because I'm a terrible person who wants to know who's visiting my page. -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112484764-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112484764-1');
+    </script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://localhost:4000/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="http://localhost:4000/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="http://localhost:4000/assets/css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Syntax Highlighting -->
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Setting the background image for the header -->
+    <style>
+        header {
+            background-image: url("http://localhost:4000/assets/img/post-bg.jpg") !important;
+        }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/posts/">Posts</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/tutorials/">Tutorials</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/organizations/">Organizations</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/contact/">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Your First Script</h1>
+              <span class="subheading">Let's get nerdy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <p>Welcome back! I know what you’re thinking: “But Nick! I’m not ready to start programming yet, I just downloaded Python for crying out loud!” but trust me, it really is that easy. Plus, I’ll teach some important things along the way.</p>
+
+<h1 id="environment">Environment</h1>
+<hr />
+<p>Before we get to coding, we need to make sure you get into the habit of having good project structure. In your “python_workspace” folder we created in the last tutorial, create a folder called “myfirstscript”. In that folder, we will create a new file called “myfirstscript.py” using IDLE. If you followed the extra tutorial, and I highly recommend that you do, open your terminal and type the following:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cd</span> <span class="n">Documents</span><span class="o">/</span><span class="n">python_workspace</span><span class="o">/</span><span class="n">myfirstscript</span><span class="o">/</span>
+</code></pre></div></div>
+
+<p>Adjusting the second part if you placed your workspace folder anywhere but Documents. Using the terminal will allow you to use whichever editor you like.</p>
+
+<h1 id="hello-world">Hello World</h1>
+<hr />
+<p>Now that you have the python script open, write the following line:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Save the file and click <code class="highlighter-rouge">Run &gt; Run Module</code> in the menu. This should then open a new IDLE window where you will see the message “Hello, World!” written to your screen. Yay, you just ran your first ever Python program!</p>
+
+<p>For you users that opened the terminal in the last section, you can type <code class="highlighter-rouge">python myfirstscript.py</code> and you should see the same results on the next line.</p>
+
+<h1 id="variables">Variables</h1>
+<hr />
+<p>The last part was a great way to introduce you to running a script, but it didn’t really do anything! That’s the whole reason we invented computers! So now, we’ll make it actually do something.</p>
+
+<p>Back in your script, delete that print line we wrote, you won’t need it anymore. We’re off to bigger and better things. In it’s place, write the following lines:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span>
+</code></pre></div></div>
+
+<p><em>x</em>, <em>y</em>, and <em>z</em> are what’s known as <em>variables</em>. Yes, just like variables in math. They hold values that you give them and they will be your work horses. You’ll notice that I put each variable <a href="#" data-toggle="tooltip" data-original-title="The first time a variable is defined." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">declaration</a> on it’s own line. In Python, each line represents a single command for it to execute. Now add the following line at the end: <code class="highlighter-rouge">print(z)</code>. Save and run the file. You should see the number “3” printed out.</p>
+
+<p>To summarize, you gave <em>x</em> the value of 1, <em>y</em> the value of 2, and <em>z</em> the value of <em>x</em> plus the value of <em>y</em>. These variables are what’s known as <em>integers</em>. Again, just like math. They represent whole numbers. You were also introduced to <em>strings</em> in the first print statement. Strings are always surrounded by quotation marks and they represent plain text, nothing special. There are many other variable types that we’ll touch on in the future.</p>
+
+<p>One final note: variable names should always be as succinct as possible, and lowercase. If you must use two words, connect them with an underscore (i.e. <code class="highlighter-rouge">account_number</code>) as Python uses spaces as a <a href="#" data-toggle="tooltip" data-original-title="Some sort of symbol that differentiates seperate items." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">delimiter</a>, similarly to English. Code is read more than it is written, and you will save future you (and maybe someone else) a lot of trouble if you follow these simple rules.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<hr />
+<p>That’s all for this tutorial! If you made it this far, thank you and I’m proud of you. In the next one we’ll do more fun and useful things with variables. For now, I highly suggest you spend some time playing with what I have taught you so far. Have fun and go crazy!</p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/nicholasjmireles">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/nicholasmireles/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="http://localhost:4000/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="http://localhost:4000/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="http://localhost:4000/assets/js/clean-blog.min.js"></script>
+
+    <!-- Custom script to enable tool-tip magic! -->
+    <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+
+  </body>
+
+</html>
