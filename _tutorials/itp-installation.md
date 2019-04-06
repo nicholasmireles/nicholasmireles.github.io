@@ -24,7 +24,7 @@ Congratulations, you now have Python! You should now be presented with the follo
 <img src="{{ '/assets/img/new_files.png' | absolute_url }}" class="rounded mx-auto d-block" style="width:50%;">
 
 I'll go over the files that you see here:
-                                                                                                                                                                                   |
+
 <table class="table table-striped">
         <tbody><tr><th>IDLE</th>
         <td>Potentially your new best friend. This is an interactive environment for writing and executing Python.</td></tr>

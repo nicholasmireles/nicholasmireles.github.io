@@ -1,44 +1,24 @@
 ---
 layout: tutorial
-title: Installation
-description: Simple guide to get started with Python!
+title: Using the Terminal
+description: "Alternate title: How to Look Like a Hollywood Hacker"
 categories: [intro-to-python, python, tutorial]
 header-img: /assets/img/post-bg.jpg
-date: 2019-03-25
+date: 2019-03-26
 ---
 
-This first tutorial will cover how to get Python installed on your computer and setting up your coding environment. I will be targeting Mac, but the instructions are identical for Windows. This process is very easy, and certainly the most important. Don't be intimidated by the length of these tutorials, I'm just rather verbose.
+So it comes to this. I've tried to keep all of this rather basic, but there's just one thing we must do: use the terminal. In Windows, it's called Command Prompt, and in Mac or Linux it's just called Terminal. It's official name is "command-line interface", but what a mouth-full. This tool provides a text-based method for interacting with your computer. It's the thing at which you see all the Hollywood hackers furiously typing away. For us, it will provide the ability to run Python with <a href="#" data-toggle="tooltip" data-original-title="Information or options we pass to programs from the terminal." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return fa`ls`e;">command-line arguments</a>.
 
-# Download
+# The Basics
 ---
-The first step, of course, is to go [here](https://www.python.org/download) and click this shiny button:
+Go ahead and open the appropriate program for your Operating System. Windows users, search for "cmd" or "Command Prompt". Everyone else, search "Terminal". You should be presented with a very plain, black window with some information. Where your cursor is currently blinking is called the command prompt, because it is prompting you for a command. Next to your cursor you should see something like `C:\Users\Nick`. This is where you currently are and where anything you do will happen. In the following sections I'll explain some basic navigation for your Operating System.
 
-
-This will download the installer to your computer. Open that file and follow the prompts. I won't insult your intelligence and leave this part to you.
-
-For Windows users, make sure to check the "Add Python to PATH" checkbox in the installer.
-
-Congratulations, you now have Python! You should now be presented with the following files:
-
-
-I'll go over the files that you see here:
-
-IDLE	Potentially your new best friend. This is an interactive environment for writing and executing Python.
-Install Certificates.command	This file will execute a command on your computer to install specially-curated SSL root certificates. You shouldn't have to worry about this now.
-License.rtf	The license that Python is released under. I'm sure we'll all thoroughly read this.
-Python Documentation.html	Self-explanatory, opens the documentation for Python in a web browser. Highly recommend reading this some time.
-Python Launcher	This file is solely for your computer to run, don't worry about it.
-README.rtf	Arguably the most important file in any software project. Gives you some useful info about Python.
-Update Shell Profile.command	Makes sure that Python is opened when you type "python" in a shell window. If you wish to use the terminal (more on this below), run this.
-
-# Editor
+# Mac / Linux
 ---
-This is the fun part: Deciding where you want to develop.
+Congratulations, you have the easier terminal to use (in my opinion). First, let's explore the directory (folder) you're currently in. Type `ls` (short for list) and press Enter/Return. This will list every file in your current directory. You should see stuff like your Documents folder, Downloads folder, etc. Where you are now is called your root directory. It's the starting point for your specific account on that computer. Now that we know where we are and how to look around, how do we move? That's where the `cd` (short for change directory) command comes in. Go ahead and try `cd Documents` followed by `ls` again. After you change directories, you should see your prompt change to reflect this. After the `ls` command, you should see the the files in your Documents folder. If you ever get lost, you can do `cd ~` to get back to your root directory. `~` is a handy shortcut that represents your root directory's <a href="#" data-toggle="tooltip" data-original-title="The 'directions' to a folder or file." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">path</a>. This should be sufficient knowledge for you for now, play around with it a bit to get familiar.
 
-It's totally okay to stick with IDLE as it lets you create scripts as well as interactively execute code. IDLE also provides handy suggestions as you type. If it's not your style, any text editor or <a href="#" data-toggle="tooltip" data-original-title="Integrated Development Environment" data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">IDE</a> will work just fine. I know that [Atom](https://atom.io/) is a very popular choice as it's gorgeous, simple, and extendible. Personally, if I'm not using VIM (A command-line editor), I use [PyCharm](https://www.jetbrains.com/pycharm/). However, that may be a little overkill for a beginner and it can be a bit overwhelming. The choice is truly yours, but I highly recommend an editor made specifically for programming as it'll provide highlighting and corrections which will prove very useful.
-
-# Workspace
+# Windows
 ---
-Finally, we should set up where you will do all your work. Go ahead and create a folder anywhere on your computer called "python_workspace". You can place it anywhere you won't forget it, but I recommend placing it in your Documents folder. This will house all your future projects and their <a href="#" data-toggle="tooltip" data-original-title="A place to safely install things specifically for a single project." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">virtual environments</a>.
+You just had to be different. This section exists solely because Windows is the only major Operating System with a different terminal. I'm going to shamelessly copy/paste the last section and adjust it for Windows here:
 
-After you decide on an editor and create the folder, we're all set! Sweet!!
+First, let's explore the directory (folder) you're currently in. Type `dir` (short for directory) and press Enter/Return. This will list every file in your current directory. You should see stuff like your Documents folder, Downloads folder, etc. Where you are now is called your root directory. It's the starting point for your specific account on that computer. Now that we know where we are and how to look around, how do we move? That's where the `cd` (short for change directory) command comes in. Go ahead and try `cd Documents` followed by `dir` again. After you change directories, you should see your prompt change to reflect this new <a href="#" data-toggle="tooltip" data-original-title="The 'directions' to a folder or file." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">path</a>. After the `dir` command, you should see the the files in your Documents folder. This should be sufficient knowledge for you for now, play around with it a bit to get familiar.
