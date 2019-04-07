@@ -1,11 +1,12 @@
 {% include header.html %}
+{% assign collection = site.collections | where: "label",page.collection | first %}
 
     <!-- Post list -->
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-        {% for post in site.tutorials %}
-        {% if post.categories contains page.series-category %}
+        {% for post in collection.docs %}
+        {% if post.categories contains "top-level" or post.categories contains "blog" %}
           <div class="post-preview">
             <a href="{{ post.url }}">
               <h2 class="post-title">
