@@ -6,3 +6,4 @@ header-img: /assets/img/about-bg.jpg
 collections:
   tutorials:
     output: true
+    permalink: /:collection/:name

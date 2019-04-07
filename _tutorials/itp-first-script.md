@@ -3,6 +3,7 @@ layout: tutorial
 title: Your First Script
 description: Let's get nerdy 
 categories: [intro-to-python, python, tutorial]
+permalink: /intro-to-python/firstscript:output_ext
 header-img: /assets/img/post-bg.jpg
 date: 2019-03-27
 ---

@@ -3,6 +3,7 @@ layout: tutorial
 title: Using the Terminal
 description: "Alternate title: How to Look Like a Hollywood Hacker"
 categories: [intro-to-python, python, tutorial]
+permalink: /intro-to-python/terminal:output_ext
 header-img: /assets/img/post-bg.jpg
 date: 2019-03-26
 ---
