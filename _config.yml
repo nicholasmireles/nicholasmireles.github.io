@@ -3,7 +3,10 @@ description: A place to learn!
 theme: jekyll-theme-slate
 header-img: /assets/img/about-bg.jpg
 
+plugins:
+  - jekyll-sitemap
+
 collections:
   tutorials:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name:output_ext
