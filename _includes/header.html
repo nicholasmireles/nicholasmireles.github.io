@@ -42,8 +42,10 @@
     <style>
         header {
             background-image: url("{{ page.header-img | default: site.header-img | absolute_url }}") !important;
-            {% if page.parent %}
+            {% if page.categories contains "tutorial" %}
+            {% unless page.categories contains "index" %}
             margin-bottom: 0px !important;
+            {% endunless %}
             {% endif %}
         }
     </style>
