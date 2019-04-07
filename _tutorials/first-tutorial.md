@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tutorial
 title: My First Tutorial Ever
 description: One year, and one month later...
 categories: [top-level, python, tutorial, machine-learning]
