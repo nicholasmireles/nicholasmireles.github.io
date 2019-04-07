@@ -11,6 +11,6 @@ date: 2019-02-14
 
 I presented it this way because, as an interactive learner, I think Jupyter notebooks are a great way to learn a new concept. GitHub also makes it great by allowing you to run them in-browser.
 
-The content from this tutorial mostly knowledge that I learned from Andrew Ng's [Coursera course](https://www.coursera.org/learn/machine-learning), which I highly recommend.
+The content from this tutorial is mostly knowledge that I learned from Andrew Ng's [Coursera course](https://www.coursera.org/learn/machine-learning), which I highly recommend.
 
 As always, I welcome any feedback on this tutorial and any recommendations for further topics.
