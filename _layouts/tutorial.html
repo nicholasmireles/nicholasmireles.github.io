@@ -1,5 +1,16 @@
 {%include header.html %}
 
+    <!-- Breadcrumb Nav -->
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white">
+      <li class="breadcrumb-item"><a href="{{ '/tutorials/' | absolute_url }}">Tutorials</a></li>
+      {% unless page.categories[0] == "top-level" %}
+      <li class="breadcrumb-item"><a href="{{ page.parent[0] | absolute_url }}">{{ page.parent[1] }}</a></li>
+      {% endunless %}
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+    </nav>
+
     <!-- Main Content -->
     <div class="container">
         {{ content }}

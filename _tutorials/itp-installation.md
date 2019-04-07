@@ -6,6 +6,7 @@ categories: [intro-to-python, python, tutorial]
 header-img: /assets/img/post-bg.jpg
 permalink: /intro-to-python/installation:output_ext
 date: 2019-03-25
+parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
 
 This first tutorial will cover how to get Python installed on your computer and setting up your coding environment. I will be targeting Mac, but the instructions are identical for Windows. This process is very easy, and certainly the most important. Don't be intimidated by the length of these tutorials, I'm just rather verbose.

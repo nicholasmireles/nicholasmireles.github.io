@@ -38,10 +38,13 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
-    <!-- Setting the background image for the header -->
+    <!-- Setting style for the header -->
     <style>
         header {
             background-image: url("{{ page.header-img | default: site.header-img | absolute_url }}") !important;
+            {% if page.parent %}
+            margin-bottom: 0px !important;
+            {% endif %}
         }
     </style>
 
