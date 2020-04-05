@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 permalink: /projects/
-header-img: assets/img/home-bg.jpg
+header-img: assets/img/books-business-computer-connection-459654.jpg
 ---
 <div class="row mt-3">
         <div class="col-sm-4">
