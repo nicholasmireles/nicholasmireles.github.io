@@ -6,7 +6,7 @@ categories: [intro-to-python, python, tutorial]
 permalink: /tutorials/intro-to-python/firstscript:output_ext
 header-img: /assets/img/post-bg.jpg
 date: 2019-03-27
-parent: ['/tutorials/tutorials/intro-to-python.html', 'Intro to Python']
+parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
 
 Welcome back! I know what you're thinking: "But Nick! I'm not ready to start programming yet, I just downloaded Python for crying out loud!" but trust me, it really is that easy. Plus, I'll teach some important things along the way.
