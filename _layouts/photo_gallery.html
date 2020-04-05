@@ -1,0 +1,30 @@
+{% include header.html %}
+    <!-- Main Content -->
+
+    <div class="container my-4">    
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4">
+
+
+            {% assign j = 1 %}
+            {% for image in page.images %}
+            <img src="{{image | absolute_url }}" class="img-fluid mb-4" alt="" data-aos="fade-in">
+            {% assign colmod = j | modulo: 1 %}
+
+            {% if colmod == 0  %}
+            <!-- End that column-->
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+
+            {% endif %}
+
+            {% assign j = j | plus:1 %}
+            {% endfor %}
+            </div>
+            </div>
+
+      <!-- end container-->
+      </div>
+{% include footer.html %}
