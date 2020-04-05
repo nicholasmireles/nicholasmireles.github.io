@@ -4,7 +4,7 @@ title: Using the Terminal
 description: "Alternate title: How to Look Like a Hollywood Hacker"
 categories: [intro-to-python, python, tutorial]
 permalink: /tutorials/intro-to-python/terminal:output_ext
-header-img: /assets/img//assets/img/woman-programming-on-a-notebook-1181359.jpg
+header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg
 date: 2019-03-26
 parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
