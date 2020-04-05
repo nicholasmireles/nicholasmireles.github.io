@@ -3,7 +3,7 @@ layout: tutorial
 title: Installation
 description: Simple guide to get started with Python!
 categories: [intro-to-python, python, tutorial]
-header-img: /assets/img/post-bg.jpg
+header-img: /assets/img//assets/img/woman-programming-on-a-notebook-1181359.jpg
 permalink: /tutorials/intro-to-python/installation:output_ext
 date: 2019-03-25
 parent: ['/tutorials/intro-to-python.html', 'Intro to Python']

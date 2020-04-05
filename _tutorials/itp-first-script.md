@@ -4,7 +4,7 @@ title: Your First Script
 description: Let's get nerdy 
 categories: [intro-to-python, python, tutorial]
 permalink: /tutorials/intro-to-python/firstscript:output_ext
-header-img: /assets/img/post-bg.jpg
+header-img: /assets/img//assets/img/woman-programming-on-a-notebook-1181359.jpg
 date: 2019-03-27
 parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
