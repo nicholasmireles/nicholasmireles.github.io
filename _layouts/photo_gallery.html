@@ -10,7 +10,7 @@
 
             {% assign j = 1 %}
             {% for image in page.images %}
-            <img src="{{image | absolute_url }}" class="img-fluid mb-4" alt="" data-aos="fade-in">
+            <img class="lozad" data-src="{{image | absolute_url }}" class="img-fluid mb-4" alt="" data-aos="fade-in">
             {% assign colmod = j | modulo: 1 %}
 
             {% if colmod == 0  %}
