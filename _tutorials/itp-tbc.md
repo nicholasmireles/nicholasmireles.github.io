@@ -9,6 +9,6 @@ date: 2019-04-08
 parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
 
-So, as one might notice by the timestamps on these posts, my interest in developing this series has fallen by the wayside. If you actually have a genuine interest in me continuing what I have here, feel fre to reach out to me and let me know!
+So, as one might notice by the timestamps on these posts, my interest in developing this series has fallen by the wayside. If you actually have a genuine interest in me continuing what I have here, feel free to reach out to me and let me know!
 
-Otherwise, this incomplete series will stand as a monument to all those incomplete passion projects we all have gathering dust somewhere.
+Otherwise, this incomplete series will stand as a monument to all those forgotten passion projects we all have gathering dust somewhere.
