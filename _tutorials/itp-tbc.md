@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: To Be Continued?
-description: A choose your own "adventure" game.
+description: A "choose your own adventure" game
 categories: [intro-to-python, python, tutorial]
 header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg
 permalink: /tutorials/intro-to-python/to-be-continued:output_ext
