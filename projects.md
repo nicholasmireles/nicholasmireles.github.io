@@ -28,7 +28,7 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
         </div>
         <div class="col">
             <h3 align="center">TSA Passenger Screening Challenge</h3>
-            <p align="center"><a href="https://www.kaggle.com/c/passenger-screening-algorithm-challenge">Project Link</a></p>
+            <p align="center"><a href="https://www.kaggle.com/c/passenger-screening-algorithm-challenge/leaderboard">Project Link</a></p>
             <p class="mt-0">
             My participation in this challenge was funded via an internal research project at Noblis. Despite entering towards the latter half of the competition, our team managed to place within the top 6% of all participants. </p>
             
