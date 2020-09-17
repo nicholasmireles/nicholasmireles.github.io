@@ -45,17 +45,6 @@
       AOS.init();
     </script>
 
-
-    <!-- Detect dark mode! -->
-    <script>
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        var outercircles = document.getElementsByClassName("fa-circle");
-        var inversedelems = document.getElementsByClassName("fa-inverse")
-
-        for(outercircle in outercircles){outercircle.add("fa-inverse");}
-        for(inversedelem in inversedelems){inversedelem.remove("fa-inverse");}
-    }
-    </script>
   </body>
 
 </html>
