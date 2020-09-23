@@ -13,7 +13,7 @@ Welcome back! I know what you're thinking: "But Nick! I'm not ready to start pro
 
 # Environment
 ---
-Before we get to coding, we need to make sure you get into the habit of having good project structure. In your "python_workspace" folder we created in the last tutorial, create a folder called "myfirstscript". If you followed the extra tutorial, and I highly recommend that you do, open your terminal and type the following:
+Before we get to coding, we need to make sure you get into the habit of having good project structure. In your `python_workspace` folder we created in the last tutorial, create a folder called `myfirstscript`. If you followed the extra tutorial, and I highly recommend that you do, open your terminal and type the following:
 
 ```python
 cd Documents/python_workspace/myfirstscript/
