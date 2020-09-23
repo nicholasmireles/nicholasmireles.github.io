@@ -13,13 +13,15 @@ Welcome back! I know what you're thinking: "But Nick! I'm not ready to start pro
 
 # Environment
 ---
-Before we get to coding, we need to make sure you get into the habit of having good project structure. In your "python_workspace" folder we created in the last tutorial, create a folder called "myfirstscript". In that folder, we will create a new file called "myfirstscript.py" using IDLE. If you followed the extra tutorial, and I highly recommend that you do, open your terminal and type the following:
+Before we get to coding, we need to make sure you get into the habit of having good project structure. In your "python_workspace" folder we created in the last tutorial, create a folder called "myfirstscript". If you followed the extra tutorial, and I highly recommend that you do, open your terminal and type the following:
 
 ```python
 cd Documents/python_workspace/myfirstscript/
 ```
 
-Adjusting the second part if you placed your workspace folder anywhere but Documents. Using the terminal will allow you to use whichever editor you like.
+Adjusting the second part if you placed your workspace folder anywhere but Documents.
+
+In this folder, let's create a new file called "myfirstscript.py" using IDLE.
 
 # Hello World
 ---
