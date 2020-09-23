@@ -21,7 +21,7 @@ cd Documents/python_workspace/myfirstscript/
 
 Adjusting the second part if you placed your workspace folder anywhere but Documents.
 
-In this folder, let's create a new file called "myfirstscript.py" using IDLE.
+In this folder, let's create a new file called `myfirstscript.py` using IDLE.
 
 # Hello World
 ---
