@@ -63,16 +63,16 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
             <img src="{{ '/assets/img/ArmyFuturesCommand.png' | absolute_url }}" alt="Army Futures Command Logo" class="img-responsive img-thumbnail" width="100%">
         </div>
         <div class="col">
-            <h3 align="center"> Army AI Task Force Aided Threat Recognition from Mobile Cooperative and Autonomous Sensors</h3>
+            <h3 align="center">Aided Threat Recognition from Mobile Cooperative and Autonomous Sensors</h3>
             <p align="center"><a href="https://www.army.mil/article/232074/aided_detection_on_the_future_battlefield">Project Link</a></p>
             <p class="mt-0">
-            My main project at the National Robotics Engineering Center was a collaboration with the Army AI Task Force to develop an autonomous off-road vehicle with threat recognition capability. This project has proved to be an interesting challenge as we push the limits of ML inference time on constrained hardware capabilities.</p>
+            My main project at the National Robotics Engineering Center is a collaboration with the Army AI Task Force to develop a cooperative and autonomous off-road vehicle and drone with threat recognition capability. This project has proved to be an interesting challenge as we push the limits of ML inference time on constrained hardware capabilities.</p>
             
 
             <p class="mt-0">
             <b>My contribution:</b>
             <br>
-            For this project, I have developed a data pipeline, written mostly in Python, that we hope to one day be the standard for all projects utilizing ML at our center. This pipeline is capable of the following:
+            For this project, I have developed a data pipeline and artifact manager, written mostly in Python. This pipeline is capable of the following:
             <ul>
             <li>Preparing raw data coming off our custom hardware for manual data segmentation.</li>
             <li>Generating Jira tickets for the labeler in charge of the segmentation.</li>
