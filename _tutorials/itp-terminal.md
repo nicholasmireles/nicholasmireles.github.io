@@ -9,7 +9,7 @@ date: 2019-03-26
 parent: ['/tutorials/intro-to-python.html', 'Intro to Python']
 ---
 
-So it comes to this. I've tried to keep all of this rather basic, but there's just one thing we must do: use the terminal. In Windows, it's called Command Prompt, and in Mac or Linux it's just called Terminal. It's official name is "command-line interface", but what a mouth-full. This tool provides a text-based method for interacting with your computer. It's the thing at which you see all the Hollywood hackers furiously typing away. For us, it will provide the ability to run Python with <a href="#" data-toggle="tooltip" data-original-title="Information or options we pass to programs from the terminal." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">command-line arguments</a>.
+So it comes to this. I've tried to keep all of this rather basic, but there's just one thing we must do: use the terminal. In Windows, it's called Command Prompt, and in Mac or Linux it's just called Terminal. This tool provides a text-based method for interacting with your computer. It's the thing at which you see all the Hollywood hackers furiously typing away. For us, it will provide the ability to run Python with <a href="#" data-toggle="tooltip" data-original-title="Information or options we pass to programs from the terminal." data-placement="bottom" style="text-decoration:none; border-bottom: 1px dashed grey;" onclick="return false;">command-line arguments</a>.
 
 # The Basics
 ---
