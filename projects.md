@@ -63,8 +63,8 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
             <img src="{{ '/assets/img/ArmyFuturesCommand.png' | absolute_url }}" alt="Army Futures Command Logo" class="img-responsive img-thumbnail" width="100%">
         </div>
         <div class="col">
-            <h3 align="center"> Army AI Task Force Automated Threat Recognition</h3>
-            <p align="center"><a href="https://www.army.mil/article/225642/ai_task_force_taking_giant_leaps_forward">Project Link</a></p>
+            <h3 align="center"> Army AI Task Force Aided Threat Recognition from Mobile Cooperative and Autonomous Sensors</h3>
+            <p align="center"><a href="https://www.army.mil/article/232074/aided_detection_on_the_future_battlefield">Project Link</a></p>
             <p class="mt-0">
             My main project at the National Robotics Engineering Center was a collaboration with the Army AI Task Force to develop an autonomous off-road vehicle with threat recognition capability. This project has proved to be an interesting challenge as we push the limits of ML inference time on constrained hardware capabilities.</p>
             
