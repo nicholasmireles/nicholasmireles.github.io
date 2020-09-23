@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: Using the Terminal
+title: Extra: Using the Terminal
 description: "Alternate title: How to Look Like a Hollywood Hacker"
 categories: [intro-to-python, python, tutorial]
 permalink: /tutorials/intro-to-python/terminal:output_ext
