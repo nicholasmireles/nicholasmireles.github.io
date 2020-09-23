@@ -6,5 +6,5 @@ categories: [top-level, python, tutorial]
 header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg
 date: 2019-03-25
 series-category: intro-to-python
-permalink: /intro-to-python/
+permalink: /tutorials/intro-to-python/
 ---
