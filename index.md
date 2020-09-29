@@ -1,6 +1,6 @@
 ---
 title: Nicks Braindump | Nicholas Mireles
-layout: default-main
+layout: default_main
 description: A place to learn!
 ---
 
