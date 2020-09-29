@@ -1,5 +1,5 @@
 ---
-title: Nicks Braindump
+title: Nicks Braindump | Nicholas Mireles
 layout: default
 ---
 
