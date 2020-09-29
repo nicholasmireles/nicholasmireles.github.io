@@ -52,8 +52,7 @@
             
             $("#mainNav").css("background-color","white");
             $("#mainNav").find('*').css("color","#212529");
-            $("i").removeClass("fa-inverse");
-            $("i").addClass("fa");
+            $("i").toggleClass("fa-inverse");
         }
         function setDark(){
             $("body").css("background-color","#2b2b2b");
@@ -62,8 +61,7 @@
  
             $("#mainNav").css("background-color","#2b2b2b");
             $("#mainNav").find('*').css("color","white");
-            $("i").removeClass("fa");
-            $("i").addClass("fa-inverse");
+            $("i").toggleClass("fa-inverse");
         }
 
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
