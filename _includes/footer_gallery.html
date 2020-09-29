@@ -44,6 +44,33 @@
       AOS.init();
     </script>
 
+    <!-- Handle dark mode -->
+    <script type="text/javascript">
+        function setLight(){
+            $("body").css("background-color","white");
+            $("body").css("color","black");
+            
+            $("#mainNav").css("background-color","white");
+            $("#mainNav").find('*').css("color","#212529");
+            $("i").attr("fa-inverse","fa");
+        }
+        function setDark(){
+            $("body").css("background-color","#2b2b2b");
+            $("body").css("color","white");
+            $("a").css("color","white");
+ 
+            $("#mainNav").css("background-color","#2b2b2b");
+            $("#mainNav").find('*').css("color","white");
+            $("i").attr("fa","fa-inverse");
+        }
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setDark();
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        e.matches ? setDark() : setLight();});
+    </script>
   </body>
 
 </html>
