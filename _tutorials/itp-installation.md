@@ -2,11 +2,11 @@
 layout: tutorial
 title: Installation
 description: Simple guide to get started with Python!
-categories: [intro-to-python, python, tutorial]
+categories: [intro-to-programming-with-python, python, tutorial]
 header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg
-permalink: /tutorials/intro-to-python/installation:output_ext
+permalink: /tutorials/intro-to-programming-with-python/installation:output_ext
 date: 2019-03-25
-parent: ['/tutorials/intro-to-python/', 'Intro to Python']
+parent: ['/tutorials/intro-to-programming-with-python/', 'Intro to Python']
 ---
 
 This first tutorial will cover how to get Python installed on your computer and setting up your coding environment. I will be targeting Mac, but the instructions are identical for Windows. This process is very easy, and certainly the most important. Don't be intimidated by the length of these tutorials, I'm just rather verbose.
