@@ -6,7 +6,7 @@ categories: [intro-to-programming-with-python, python, tutorial]
 permalink: /tutorials/intro-to-programming-with-python/firstscript:output_ext
 header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg
 date: 2019-03-27
-parent: ['/tutorials/intro-to-programming-with-python/', 'Intro to Python']
+parent: ['/tutorials/intro-to-programming-with-python/', 'Introduction to Programming with Python']
 ---
 
 Welcome back! I know what you're thinking: "But Nick! I'm not ready to start programming yet, I just downloaded Python for crying out loud!" but trust me, it really is that easy. Plus, I'll teach some important things along the way.
