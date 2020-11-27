@@ -8,7 +8,7 @@ header-img: /assets/img/kubernetes-horizontal-color.png
 date: 2020-11-26
 parent: ['/tutorials/kubernetes/', 'Kubernetes']
 ---
-[Kubernetes](https://kubernetes.io/) is a powerful container orchestration system originally developed by Google. It has recently seen an explosion in popularity over the past few years, even gaining native support by major vendors such as [Ubuntu](https://ubuntu.com/kubernetes).
+[Kubernetes](https://kubernetes.io/) is a powerful container orchestration system originally developed by Google. It has recently seen an explosion in popularity, even gaining native support by major vendors such as [Ubuntu](https://ubuntu.com/kubernetes).
 
 At my current employer, one of my duties is to help maintain our on-prem, bare-metal installation. I develop utilities and resources to aid researchers, and use it myself to train and evaluate new models.
 
