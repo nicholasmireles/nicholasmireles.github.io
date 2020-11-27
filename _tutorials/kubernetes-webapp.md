@@ -85,12 +85,12 @@ I'll explain each line here in detail:
 - `CMD flask run --host=0.0.0.0`
     - This overrideable command starts Flask at `0.0.0.0`. *This is very important*. In order for us to access this outside of the container, the host must be set to this (in my experience).
 
-Now we push this to our repository. **This repository must be accessible from your cluster.**
+Now we build and push this to our repository. **This repository must be accessible from your cluster.**
 
-`docker build . -t $REPOSITORY/$IMAGE:$TAG`
+`docker build . -t $REPOSITORY/$IMAGE:$TAG && docker push $REPOSITORY/$IMAGE:$TAG`
 
 # Step 2: The Deployment
-Now that we have our Docker image built and pushed to our repository, we now get to the exciting part of deploying it to our cluster. The following *YAML* creates a very simple deployment with one pod:
+Now that we have our Docker image built and pushed to our repository, we get to the exciting part of deploying it to our cluster. The following *YAML* creates a very simple deployment with one pod:
 
 
 ```yaml
@@ -117,7 +117,7 @@ spec:
         - containerPort: 5000
 ```
 
-Heres's what's going on inside this file:
+Heres's the noteworthy parts of this file:
 - `app: myflaskapp` This field in the metadata and spec ensures that any pods created by this template are associated with this deployment.
 - `containerPort: 5000` This exposes port 5000 inside the container, as that is the default port for Flask. This is configurable.
 
@@ -142,7 +142,7 @@ spec:
 ```
 
 Let's once again analyze what I'm doing here:
-- `app: myflaskapp` We once again make sure to select our app in order to associate this with our deployment.
+- `app: myflaskapp` Just as before, we select our app in order to associate this with our deployment.
 - `type: ClusterIP` This creates a cluster-internal IP address for this service. This is also the default service type.
 - `port:5000` This exposes port 5000 at our newly-assigned IP.
 - `targetPort:5000` Forward the aforementioned port to port 5000 in our pod.
@@ -174,9 +174,9 @@ spec:
 One assumption made here is that your cluster also uses the [NGinx ingress controller](https://kubernetes.github.io/ingress-nginx/).
 
 Heres what the above *YAML* accomplishes:
-- `nginx.ingress.kubernetes.io/rewrite-target: $1` This ensures that the request that is sent to our container is in the form `$HOST/$SOMETHING` instead of in the form `$HOST/myflaskapp/$SOMETHING` as we did not configure our server to handle that route.
-- `path: /myflaskapp/(.*)` This helps accomplish the above bullet. The regex group at the end is what is captured in the `$1` variable above.
-- `pathType: Prefix` Does a case-sensitive match of the any paths/subpaths prefixed by our above path.
+- `nginx.ingress.kubernetes.io/rewrite-target: $1` This ensures that any request that is sent to our container is in the form `$HOST/$SOMETHING` instead of in the form `$HOST/myflaskapp/$SOMETHING` as we did not configure our server to handle that route.
+- `path: /myflaskapp/(.*)` This helps accomplish the previous bullet. The regex group at the end is what is captured in the `$1` variable above.
+- `pathType: Prefix` Does a case-sensitive match of the any paths/subpaths prefixed by new path.
 
 Now we save this final *YAML* as `ingress.yaml` and apply it via `kubectl apply -f ingress.yaml`
 
