@@ -147,7 +147,7 @@ Let's once again analyze what I'm doing here:
 - `port:5000` This exposes port 5000 at our newly-assigned IP.
 - `targetPort:5000` Forward the aforementioned port to port 5000 in our pod.
 
-Similar to above, we'll save this `YAML` as `service.yaml` and commit it as such: `kubectl apply -f service.yaml`
+Similar to above, we'll save this *YAML* as `service.yaml` and commit it as such: `kubectl apply -f service.yaml`
 
 # Step 4: The Ingress
 Final step, we're almost there! Now we must expose this service to the outside world. This section is highly dependent on the configuration of your cluster and whether or not you are operating in the cloud. This basic configuration should be good enough for a bare-metal installation such as mine.
