@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: tutorial_series
 title: To Be Continued?
 description: A "choose your own adventure" game
 categories: [intro-to-python, python, tutorial]

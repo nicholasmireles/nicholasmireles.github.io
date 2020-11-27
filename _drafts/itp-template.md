@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: tutorial_series
 title: CHANGEME
 description: CHANGEME
 categories: [intro-to-python, python, tutorial]

@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: tutorial_series
 title: "Extra: Using the Terminal"
 description: "Alternate title: How to Look Like a Hollywood Hacker"
 categories: [intro-to-python, python, tutorial]

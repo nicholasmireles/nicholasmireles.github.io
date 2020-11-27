@@ -1,7 +1,7 @@
 ---
-layout: tutorial
+layout: tutorial_series
 title: Your First Script
-description: Let's get nerdy 
+description: Let's get nerdy
 categories: [intro-to-python, python, tutorial]
 permalink: /tutorials/intro-to-python/firstscript:output_ext
 header-img: /assets/img/woman-programming-on-a-notebook-1181359.jpg

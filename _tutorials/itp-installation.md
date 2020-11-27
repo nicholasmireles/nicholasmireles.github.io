@@ -1,5 +1,5 @@
 ---
-layout: tutorial
+layout: tutorial_series
 title: Installation
 description: Simple guide to get started with Python!
 categories: [intro-to-python, python, tutorial]
