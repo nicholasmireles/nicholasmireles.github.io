@@ -176,7 +176,7 @@ One assumption made here is that your cluster also uses the [NGinx ingress contr
 Heres what the above *YAML* accomplishes:
 - `nginx.ingress.kubernetes.io/rewrite-target: $1` This ensures that any request that is sent to our container is in the form `$HOST/$SOMETHING` instead of in the form `$HOST/myflaskapp/$SOMETHING` as we did not configure our server to handle that route.
 - `path: /myflaskapp/(.*)` This helps accomplish the previous bullet. The regex group at the end is what is captured in the `$1` variable above.
-- `pathType: Prefix` Does a case-sensitive match of any paths/subpaths prefixed by new path.
+- `pathType: Prefix` Does a case-sensitive match of any paths/subpaths prefixed by the new path.
 
 Now we save this final *YAML* as `ingress.yaml` and apply it via `kubectl apply -f ingress.yaml`
 
