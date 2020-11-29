@@ -37,13 +37,12 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                                     Laude</em></li>
                             <li><span class="fa-li"><i class="fa fa-angle-right"></i></span><em>Activities:</em>
                                 <ul class="fa-ul">
-                                    <li><span class="fa-li"><i class="fa fa-angle-right"></i></span><em>Eletrical Team
+                                    <li><span class="fa-li"><i class="fa fa-angle-right"></i></span><em>Wiring Team
                                             Lead: West Virginia University Robotics Team</em></li>
-                                </ul>
-                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-angle-right"></i></span><em>President: Society of Hispanic Professional Engineers</em></li>
                                     <li><span class="fa-li"><i class="fa fa-angle-right"></i></span><em>Member: Tau Beta
-                                            Pi</em></li>
-                                </ul>
+                                            Pi</em></li>                 
+                               </ul>
                             </li>
                         </ul>
                     </div>
