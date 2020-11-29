@@ -155,8 +155,8 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                     <h6 class="card-title">2019-Present</h6>
                     <hr>
                     <div class="card-text">
-                        <em>Software engineer supporting advanced research conducted in the machine learning lab. </em>
-                                           <!-- Start CMU Card -->
+                        <em>Data engineer developing and maintaining machine learning infrastructure, improving computer vision models, and on-robot C++ control software.</em>
+                    <!-- Start CMU Card -->
                    <div class="card">
                     <div class="card-header bg-light collapse-heading" id="heading-cmu" data-toggle="collapse"
                         data-target="#cmu-collapse" aria-expanded="false" aria-controls="cmu-collapse">
