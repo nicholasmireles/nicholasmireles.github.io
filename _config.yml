@@ -5,6 +5,7 @@ header-img: /assets/img/about-bg.jpg
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 collections:
   tutorials:
