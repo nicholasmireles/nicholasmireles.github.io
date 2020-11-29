@@ -2,9 +2,11 @@ title: Nick's Braindump | Nicholas Mireles
 description: A place to learn!
 theme: jekyll-theme-slate
 header-img: /assets/img/about-bg.jpg
+url: https://nicholasmireles.com
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 collections:
   tutorials:
