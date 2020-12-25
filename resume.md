@@ -12,12 +12,11 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
 
     .collapse-heading[aria-expanded="true"]::before {
         content: "\f107";
-    }
+    }          
 </style>
-<div class="card">
-    <div class="card-header">
-        <h1 class="mb-0 display-4"> Education </h1>
-    </div>
+<h1 class="mb-0 display-4"> Education </h1>
+<hr>
+<div class="card" style="border:none;">
     <div class="card-body">
         <div class="row no-gutters">
             <div class="col-auto">
@@ -51,10 +50,10 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
         </div>
     </div>
 </div>
-<div class="card">
-    <div class="card-header">
-        <h1 class="mb-0 display-4"> Work Experience </h1>
-    </div>
+<br>
+<h1 class="mb-0 display-4"> Work Experience </h1>
+<hr>
+<div class="card" style="border:none;">
     <div class="card-body">
         <div class="row no-gutters">
             <div class="col-auto">
@@ -71,7 +70,9 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                     <div class="card-text">
                         <em>Software engineer supporting advanced research conducted in the machine learning lab. </em>
                         <!-- Start Noblis Projects Card -->
-                        <div class="card-header bg-light collapse-heading" id="heading-noblis" data-toggle="collapse"
+                        <div class="card-header collapse-heading" 
+                            style="background-color: #fff0"
+                            id="heading-noblis" data-toggle="collapse"
                             data-target="#noblis-collapse" aria-expanded="false" aria-controls="noblis-collapse">
                             Projects
                         </div>
@@ -156,8 +157,10 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                     <div class="card-text">
                         <em>Data engineer developing and maintaining machine learning infrastructure, improving computer vision models, and developing on-robot C++ control software.</em>
                     <!-- Start CMU Card -->
-                   <div class="card">
-                    <div class="card-header bg-light collapse-heading" id="heading-cmu" data-toggle="collapse"
+                    <div class="card-header collapse-heading" 
+                        style="background-color: #fff0"
+                        id="heading-cmu" 
+                        data-toggle="collapse"
                         data-target="#cmu-collapse" aria-expanded="false" aria-controls="cmu-collapse">
                         Projects
                     </div>
