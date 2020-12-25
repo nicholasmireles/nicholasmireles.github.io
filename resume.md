@@ -50,7 +50,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
         </div>
     </div>
 </div>
-<br>
 <h1 class="mb-0 display-4"> Work Experience </h1>
 <hr>
 <div class="card" style="border:none;">
