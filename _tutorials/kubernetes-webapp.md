@@ -1,12 +1,12 @@
 ---
 layout: tutorial
-title: Web App Deployment
+title: Kubernetes Web App Deployment
 description: A simple recipe for deploying a small web app to Kubernetes.
-categories: [kubernetes, kubernetes, tutorial]
+categories: [recipes, kubernetes, kubernetes, tutorial]
 permalink: /tutorials/kubernetes/simple-web-app:output_ext
 header-img: /assets/img/kubernetes-horizontal-color.png
 date: 2020-11-26
-parent: ['/tutorials/kubernetes/', 'Kubernetes']
+parent: ['/tutorials/recipes/', 'Recipes']
 ---
 [Kubernetes](https://kubernetes.io/) is a powerful container orchestration system originally developed by Google. It has recently seen an explosion in popularity, even gaining native support by major vendors such as [Ubuntu](https://ubuntu.com/kubernetes).
 

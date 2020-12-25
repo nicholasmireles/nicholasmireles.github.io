@@ -1,10 +1,10 @@
 ---
 layout: series_index
-title: Kubernetes
-description: A collection of Kubernetes recipes and lessons-learned.
+title: Recipes
+description: A collection of programming recipes and lessons-learned.
 categories: [top-level, tutorial]
-header-img: /assets/img/kubernetes-horizontal-color.png
+header-img: /assets/img/recipe-binder-kit-theidearoom-49.jpg
 date: 2020-11-26
-series-category: kubernetes
-permalink: /tutorials/kubernetes/
+series-category: recipes
+permalink: /tutorials/recipes/
 ---
