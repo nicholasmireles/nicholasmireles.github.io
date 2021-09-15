@@ -29,7 +29,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                         <h5 class="card-title">West Virginia University</h5>
                     </em>
                     <h6 class="card-title">2013-2017</h6>
-                    <hr>
                     <div class="card-text">
                         <ul class="fa-ul">
                             <li><em><span class="fa-li"><i class="fa fa-angle-right"></i></span>Graduated Magna Cum
@@ -65,7 +64,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                         <h5 class="card-title">Noblis</h5>
                     </em>
                     <h6 class="card-title">2017-2019</h6>
-                    <hr>
                     <div class="card-text">
                         <em>Software engineer supporting advanced research conducted in the machine learning lab. </em>
                         <!-- Start Noblis Projects Card -->
@@ -140,7 +138,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                 </div>
             </div>
         </div>
-        <hr>
         <div class="row no-gutters">
             <div class="col-auto">
                 <img src="/assets/img/NREC_2016_Logo.png" width="200px" alt="noblis-logo">
@@ -152,7 +149,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                         <h5 class="card-title">National Robotics Engineering Center</h5>
                     </em>
                     <h6 class="card-title">2019-Present</h6>
-                    <hr>
                     <div class="card-text">
                         <em>Data engineer developing and maintaining machine learning infrastructure, improving computer vision models, and developing on-robot C++ control software.</em>
                     <!-- Start CMU Card -->
