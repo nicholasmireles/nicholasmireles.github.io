@@ -67,12 +67,6 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                     <div class="card-text">
                         <em>Software engineer supporting data analytics for all of Fortive's operating companies. </em>
                         <!-- Start Fortive Projects Card -->
-                        <div class="card-header collapse-heading" 
-                            style="background-color: #fff0"
-                            id="heading-noblis" data-toggle="collapse"
-                            data-target="#noblis-collapse" aria-expanded="false" aria-controls="noblis-collapse">
-                            Projects
-                        </div>
                     </div>
                 </div>
             </div>
