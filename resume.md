@@ -55,6 +55,33 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
     <div class="card-body">
         <div class="row no-gutters">
             <div class="col-auto">
+                <img src="https://www.fortive.com/themes/fortive/logo.svg" width="200px" alt="noblis-logo">
+            </div>
+            <div class="col">
+                <div class="card-block px-2">
+                    <h3 class="card-title"> Software Engineer</h3>
+                    <em>
+                        <h5 class="card-title">Fortive</h5>
+                    </em>
+                    <h6 class="card-title">2021-Present</h6>
+                    <div class="card-text">
+                        <em>Software engineer supporting data analytics for all of Fortive's operating companies. </em>
+                        <!-- Start Fortive Projects Card -->
+                        <div class="card-header collapse-heading" 
+                            style="background-color: #fff0"
+                            id="heading-noblis" data-toggle="collapse"
+                            data-target="#noblis-collapse" aria-expanded="false" aria-controls="noblis-collapse">
+                            Projects
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- End Fortive Card -->
+<div class="card" style="border:none;">
+    <div class="card-body">
+        <div class="row no-gutters">
+            <div class="col-auto">
                 <img src="/assets/img/noblis-logo.png" width="200px" alt="noblis-logo">
             </div>
             <div class="col">
