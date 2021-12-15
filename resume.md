@@ -169,7 +169,7 @@ header-img: assets/img/books-business-computer-connection-459654.jpg
                     <em>
                         <h5 class="card-title">National Robotics Engineering Center</h5>
                     </em>
-                    <h6 class="card-title">2019-Present</h6>
+                    <h6 class="card-title">2019-2021</h6>
                     <div class="card-text">
                         <em>Data engineer developing and maintaining machine learning infrastructure, improving computer vision models, and developing on-robot C++ control software.</em>
                     <!-- Start CMU Card -->
