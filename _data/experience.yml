@@ -1,0 +1,15 @@
+# Jobs
+- company: Fortive
+  position: Data Engineer
+  duration: Nov, 2021 &mdash;May, 2023
+  summary: <ul><li>In order to provide new sources of business intelligence for a marketing funnel, built an ETL pipeline in Prefect and Snowflake which aggregated multiple external and internal data sources to enable the sales team to drive $35M in new sales.</li><li>In support of a legacy customer churn for a large operating company, optimized the various recipes within a Dataiku project to have a 72x improvement in speed and patched a memory leak which required an ever-increasing amount of memory to execute.</li><li>As a core member of the MLOps team, developed Python coding standards, data governance policies, and performed daily management tasks of AWS, Azure, and GitLab tenancy including CI/CD pipelines.</ul>
+
+- company: Carnegie Mellon University
+  position: Data Engineer
+  duration: June, 2019 &mdash;Oct, 2021
+  summary: <ul><li>Developed a bare-metal, ITAR-compliant ETL pipeline utilizing Airflow, Kubernetes, and Python capable of processing a petabyte of custom ROS data from robotic platforms.</li><li>Implemented stereo vision and object-detection algorithms in C++ using Tensorflow and OpenCV.</li></ul>
+
+- company: Noblis
+  position: Software Engineer
+  duration: June, 2017 &mdash;June, 2019
+  summary: <ul><li>To enable national security analysts to process large amounts of mixed-multimedia, lead the development and research for image and video automatic captioning web application utilizing state- of-the-art ML algorithms.</li><li>In support of a multi-year IARPA research program, refactored legacy Python codebase to facilitate the release and evaluation of HITs on Amazon Mechanical Turk with a 10x performance increase.</li><li>For the Department of Homeland Security’s Kaggle challenge to improve the accuracy of millimeter- wave body scanner threat detection algorithm, developed a convex-hull data preprocessing utility and evaluation harness for a state-of-the-art algorithm which ultimately placed within the top 6%.</li></ul>
