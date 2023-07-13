@@ -1,4 +1,9 @@
 # Jobs
+- company: Dave
+  position: Data Engineer
+  duration: May, 2023 &mdash;Present
+  summary: Engineer supporting the data science platform. Building and managing tools to train, test, and deploy new models in support of core business services.<br>More to come as I venture through my first non-research job!
+
 - company: Fortive
   position: Data Engineer
   duration: Nov, 2021 &mdash;May, 2023
