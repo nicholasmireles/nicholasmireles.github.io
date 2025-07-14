@@ -1,6 +1,6 @@
 # Jobs
 - company: Dave
-  position: Data Engineer
+  position: Machine Learning Platform Engineer
   duration: May, 2023 &mdash;Present
   summary: Working as a Data Engineer II at Dave, I play a key role in developing and maintaining the next-generation CashAI machine learning platform. My responsibilities include:<ul><li>Implementing the first LLM-based model at Dave, along with its supporting infrastructure</li><li>Developed and optimized Java Apache Beam pipelines for efficient data processing</li><li>Maintained high reliability of the CashAI platform in production environment</li><li>Leveraged diverse tech stack including Python, Java, Apache Beam, Redis, GCP Vertex, Snowflake, and Kubernetes</li></ul>
 
