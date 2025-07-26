@@ -1,6 +1,7 @@
 # Site settings
 title: "Nicholas Mireles"
 description: "The landing page for Nicholas Mireles."
+encoding: "utf-8"
 
 # Build settings
 markdown: kramdown
