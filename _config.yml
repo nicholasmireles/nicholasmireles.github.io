@@ -9,6 +9,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Nicholas Mireles"
